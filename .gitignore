@@ -2,3 +2,4 @@
 *.py
 *.pyc
 __pycache__
+main.go
