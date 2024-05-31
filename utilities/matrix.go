@@ -5,14 +5,7 @@ type Point struct {
 	y float64
 }
 
-type Rect struct {
-	x1 float64
-	y1 float64
-	x2 float64
-	y2 float64
-}
-
-// PDF 1.6 Reference: Transformation matrix
+// PDF 1.6 Reference: Transformation matrices (4.2.3)
 type Matrix struct {
 	a float64
 	b float64
